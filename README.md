@@ -24,7 +24,7 @@ ng serve
 ```
 
 ## Live URL
-animated-khapse-e7032d.netlify.app
+https://midterm-exam-20242470-lano-rb.netlify.app/tasks
 
 # GitHub URL
 https://github.com/UBSITLanoRysha/appdev1-midterm-20242470
