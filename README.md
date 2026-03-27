@@ -28,4 +28,4 @@ ng serve
 ```
 
 ## Live URL
-https://your-live-url-here.netlify.app 
+animated-khapse-e7032d.netlify.app
