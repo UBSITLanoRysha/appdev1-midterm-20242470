@@ -1,1 +1,67 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=DM+Sans:wght@300;400;500&display=swap');
+
+:root {
+  --beige-light: #f5f0e8;
+  --beige-mid: #ede4d0;
+  --beige-dark: #c9b99a;
+  --purple-main: #6b3fa0;
+  --purple-dark: #4a2070;
+  --purple-light: #9b72cf;
+  --purple-pale: #e8dff5;
+  --text-dark: #2d1b4e;
+  --text-muted: #7a6a8a;
+}
+
+body {
+  background-color: var(--beige-light);
+  font-family: 'DM Sans', sans-serif;
+  color: var(--text-dark);
+}
+
+h1, h2, h3, h4, .brand-title {
+  font-family: 'Playfair Display', serif;
+}
+
+.btn-primary {
+  background-color: var(--purple-main) !important;
+  border-color: var(--purple-main) !important;
+  color: white !important;
+}
+.btn-primary:hover {
+  background-color: var(--purple-dark) !important;
+  border-color: var(--purple-dark) !important;
+}
+.btn-outline-primary {
+  color: var(--purple-main) !important;
+  border-color: var(--purple-main) !important;
+}
+.btn-outline-primary:hover {
+  background-color: var(--purple-main) !important;
+  color: white !important;
+}
+
+.badge-priority-high   { background-color: #c0392b; color: white; padding: 5px 10px; border-radius: 20px; font-size: 0.8rem; }
+.badge-priority-medium { background-color: var(--purple-main); color: white; padding: 5px 10px; border-radius: 20px; font-size: 0.8rem; }
+.badge-priority-low    { background-color: var(--beige-dark); color: var(--text-dark); padding: 5px 10px; border-radius: 20px; font-size: 0.8rem; }
+.badge-pending     { background-color: #e0a800; color: white; padding: 5px 10px; border-radius: 20px; font-size: 0.8rem; }
+.badge-inprogress  { background-color: var(--purple-light); color: white; padding: 5px 10px; border-radius: 20px; font-size: 0.8rem; }
+.badge-completed   { background-color: #28a745; color: white; padding: 5px 10px; border-radius: 20px; font-size: 0.8rem; }
+
+.task-card {
+  background-color: white;
+  border: 1px solid var(--beige-mid);
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(107, 63, 160, 0.08);
+}
+
+.nav-pills .nav-link.active {
+  background-color: var(--purple-main) !important;
+}
+.nav-pills .nav-link {
+  color: var(--purple-main);
+}
+
+.active-link {
+  background-color: rgba(255,255,255,0.2) !important;
+  border-radius: 8px;
+}
