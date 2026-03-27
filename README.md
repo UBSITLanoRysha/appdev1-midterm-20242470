@@ -1,12 +1,8 @@
-# TaskFlow – Personal Task Manager
-
-A lightweight browser-based task manager built with Angular v21.
-
 ## Student Info
 - **Name:** Your Full Name
 - **Student ID:** 20242470
-- **Course:** Your Course and Year
-- **Section:** Your Section
+- **Course:** BSIT 2
+- **Section:** IDB 3
 
 ## Features
 - Add, edit, delete tasks
@@ -29,3 +25,6 @@ ng serve
 
 ## Live URL
 animated-khapse-e7032d.netlify.app
+
+# GitHub URL
+https://github.com/UBSITLanoRysha/appdev1-midterm-20242470
